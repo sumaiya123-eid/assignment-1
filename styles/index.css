@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 div nav li{
     list-style: none;
     color: rgb(13, 19, 33);
@@ -46,12 +50,14 @@ margin: 0 auto;
 .hero img{
     width: 240.28px;
 height: 240px;
+margin-top: 24px;
 }
 .hero h1{
     color: rgb(13, 19, 33);
 font-size: 48px;
 font-weight: 800;
 text-align: center;
+margin-bottom: 24px;
 }
 .hero p{
     color: rgb(13, 19, 33);
@@ -59,6 +65,7 @@ font-size: 16px;
 font-weight: 400;
 opacity: 0.7;
 text-align: center;
+margin-bottom: 24px;
 }
 .hero-button{
     text-align: center;
@@ -73,26 +80,46 @@ font-size: 20px;
 font-weight: 600;
 }
 .second-page{
-    width: 1000px;
-height: 900px;
+    width: 1140px;
+height: 1300px;
 margin: 0 auto;
 margin-top: 74px;
-padding: 20px;
+padding: 20px 20px;
 border-radius: 16px;
 background: rgba(13, 19, 33, 0.02);
+margin-bottom: 88px;
+}
+.second-page-holder{
+    padding: 80px 97px;
 }
 .section2{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 40px;
 }
+.second-page .section2 h2{
+    color: rgb(13, 19, 33);
+font-size: 32px;
+font-weight: 800;
+margin-bottom: 24px;
+}
+.second-page .section2 p{
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
 .whydev1{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     border-radius: 16px;
     margin-bottom: 48px;
+    padding: 48px;
 }
 .white-bg{background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);}
 
@@ -102,12 +129,14 @@ font-family: Azeret Mono;
 font-size: 24px;
 font-weight: 700;
 text-align: start;
+margin-bottom: 16px;
 }
 .whydev1 .firstdiv p{
     color: rgb(13, 19, 33);
 font-size: 16px;
 font-weight: 400;
 opacity: 0.7;
+margin-bottom: 32px;
 }
 .whydev1 .firstdiv button{
     box-sizing: border-box;
@@ -138,6 +167,7 @@ margin: 0 auto;
     color: rgb(13, 19, 33);
 font-size: 32px;
 font-weight: 800;
+margin-bottom: 24px;
 }
 .third-page-div1 p{
     color: rgb(13, 19, 33);
@@ -145,6 +175,7 @@ font-size: 16px;
 font-weight: 400;
 text-align: center;
 opacity: 0.7;
+margin-bottom: 48px;
 }
 .youtube-link{
     text-align: center;
@@ -164,6 +195,7 @@ height: 463px;
     color: rgb(13, 19, 33);
 font-size: 32px;
 font-weight: 800;
+margin-bottom: 24px;
 }
 .fourth-page-div1 p{
         color: rgb(13, 19, 33);
@@ -171,6 +203,7 @@ font-weight: 800;
     font-weight: 400;
     opacity: 0.7;
     text-align: center;
+    margin-bottom: 48px;
     }
 .skills{
     display: flex;
@@ -183,7 +216,7 @@ font-weight: 800;
     background-color: rgba(255, 76, 30, 0.05);
 height: 200px;
 border-radius: 16px;
-padding: 40px;
+padding: 40px;;
 }
 .skills-div2{
     border-radius: 16px;
@@ -216,32 +249,78 @@ font-size: 16px;
 font-weight: 700;
 text-align: start;
     }
-    .fifth-page{
+    .last-page{
         width: 1140px;
-        height: 463px;
-        margin: 0 auto;
-    }
-    .fifth-page-div1 h3{
-        color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 32px;
-font-weight: 800;
-text-align: center;
-    }
-    .fifth-page-div1 p{
-        color: rgb(13, 19, 33);
-font-size: 16px;
-font-weight: 400;
-opacity: 0.7;
-text-align: center;
-    }
-    .fifth-page-div2{
+height: 314px;
+margin: 0 auto;
+background-image:linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../assets/handshake.jpg');
+background-size: cover;
+background-position: center;
+border-radius: 16px;
+margin-bottom: 70px;
+    }    
+    .last-page-div{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-    .skills-div{
-        border: 1px solid rgba(13, 19, 33, 0.15);
-border-radius: 16px;
+    .textarea-btn{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+    }
+    textarea{
+        box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
 background: rgb(255, 255, 255);
-padding: 40px;
+width: 548px;
+height: 57px;
+color: rgba(13, 19, 33, 0.4);
+font-size: 16px;
+font-weight: 400;
+padding: 10px;
+    }
+    .btn{
+        width: 120px;
+height: 58px;
+border-radius: 8px;
+background: rgb(255, 255, 255);
+color: rgb(13, 19, 33);
+font-size: 20px;
+font-weight: 600;
+    }
+    .last-page-div h3{
+        color: rgb(255, 255, 255);
+font-size: 32px;
+font-weight: 700;
+margin-bottom: 16px;
+margin-top: 64px;
+    }
+    .last-page-div p{
+        color: rgb(255, 255, 255);
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 24px;
+opacity: 0.7;
+    }
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 1440px;
+        height: 100px;
+        margin: 0 auto;
+        border-radius: 16px;
+        background: rgba(13, 19, 33, 0.03);
+    }
+    footer div p{
+        color: rgb(13, 19, 33);
+font-size: 20px;
+font-weight: 600;
     }
