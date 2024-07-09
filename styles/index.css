@@ -1,0 +1,68 @@
+div nav li{
+    list-style: none;
+    color: rgb(13, 19, 33);
+font-size: 28px;
+font-weight: 800;
+}
+nav li a{
+    text-decoration: none;
+}
+div button{
+    box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+border-radius: 8px;
+opacity: 0.8;
+color: rgb(13, 19, 33);
+font-size: 20px;
+font-weight: 600;
+width: 228px;
+height: 58px;
+}
+.upper-hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 38px;
+    margin-bottom: 35px;
+}
+.hero-banner{
+    width: 1440px;
+height: 600px;
+background-image: url("../assets/Hero-bg.png");
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero img{
+    width: 240.28px;
+height: 240px;
+}
+.hero h1{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 48px;
+font-weight: 800;
+text-align: center;
+}
+.hero p{
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+opacity: 0.7;
+text-align: center;
+}
+.hero-button{
+    text-align: center;
+}
+.hero-button button{
+    width: 208px;
+height: 66px;
+border-radius: 8px;
+background: rgb(13, 19, 33);
+color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 600;
+}
