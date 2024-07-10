@@ -6,6 +6,7 @@ body{
     margin: 0;
     padding: 0;
 }
+/* header-section styles */
 div nav li{
     list-style: none;
     color: rgb(13, 19, 33);
@@ -17,14 +18,14 @@ nav li a{
 }
 div button{
     box-sizing: border-box;
-border: 1px solid rgb(13, 19, 33);
-border-radius: 8px;
-opacity: 0.8;
-color: rgb(13, 19, 33);
-font-size: 20px;
-font-weight: 600;
-width: 228px;
-height: 58px;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    width: 228px;
+    height: 58px;
 }
 .upper-hero{
     display: flex;
@@ -35,15 +36,13 @@ height: 58px;
     margin-bottom: 38px;
     margin: 0 auto;
     width: 1440px;
-height: 130px;
-
-
+    height: 130px;
 }
 .hero-banner{
     width: 1440px;
-height: 600px;
-background-image: url("../assets/Hero-bg.png");
-margin: 0 auto;
+    height: 600px;
+    background-image: url("../assets/Hero-bg.png");
+    margin: 0 auto;
 }
 .hero{
     display: flex;
@@ -53,36 +52,37 @@ margin: 0 auto;
 }
 .hero img{
     width: 240.28px;
-height: 240px;
-margin-top: 24px;
+    height: 240px;
+    margin-top: 24px;
 }
 .hero h1{
     color: rgb(13, 19, 33);
-font-size: 48px;
-font-weight: 800;
-text-align: center;
-margin-bottom: 24px;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
 }
 .hero p{
     color: rgb(13, 19, 33);
-font-size: 16px;
-font-weight: 400;
-opacity: 0.7;
-text-align: center;
-margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    text-align: center;
+    margin-bottom: 24px;
 }
 .hero-button{
     text-align: center;
 }
 .hero-button button{
     width: 208px;
-height: 66px;
-border-radius: 8px;
-background: rgb(13, 19, 33);
-color: rgb(255, 255, 255);
-font-size: 20px;
-font-weight: 600;
+    height: 66px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
 }
+/* second-section styles */
 .second-page{
     width: 1140px;
 height: 1300px;
@@ -96,20 +96,20 @@ margin-bottom: 88px;
 .second-page-holder{
     padding: 80px 97px;
 }
-.section2{
+.second-page-upper-portion{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: 40px;
 }
-.second-page .section2 h2{
+.second-page .second-page-upper-portion h2{
     color: rgb(13, 19, 33);
 font-size: 32px;
 font-weight: 800;
 margin-bottom: 24px;
 }
-.second-page .section2 p{
+.second-page .second-page-upper-portion p{
     opacity: 0.7;
     color: rgb(13, 19, 33);
     font-size: 16px;
@@ -117,7 +117,7 @@ margin-bottom: 24px;
     text-align: center;
 }
 
-.whydev1{
+.my-goal{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -125,9 +125,7 @@ margin-bottom: 24px;
     margin-bottom: 48px;
     padding: 48px;
 }
-.white-bg{background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);}
-
-.whydev1 .firstdiv h3{
+.my-goal .firstdiv h3{
     color: rgba(13, 19, 33, 0.7);
 font-family: Azeret Mono;
 font-size: 24px;
@@ -135,14 +133,14 @@ font-weight: 700;
 text-align: start;
 margin-bottom: 16px;
 }
-.whydev1 .firstdiv p{
+.my-goal .firstdiv p{
     color: rgb(13, 19, 33);
 font-size: 16px;
 font-weight: 400;
 opacity: 0.7;
 margin-bottom: 32px;
 }
-.whydev1 .firstdiv button{
+.my-goal .firstdiv button{
     box-sizing: border-box;
 border: 1px solid rgb(13, 19, 33);
 opacity: 0.7;
@@ -151,11 +149,13 @@ height: 48px;
 color: rgb(13, 19, 33);
 font-size: 20px;
 font-weight: 600;
+cursor: pointer;
 }
-.whydev1 .firstdivimg{
+.my-goal .firstdivimg{
     width: 259.56px;
 height: 217.01px;
 }
+/* third-section styles */
 .third-page{
     width: 1140px;
 height: 650px;
@@ -189,6 +189,7 @@ padding: 20px 5px;
 margin: 0 auto;
 width: 600px;
 }
+/* fourth-section styles */
 .fourth-page{
     width: 1140px;
 height: 463px;
@@ -234,6 +235,9 @@ padding: 40px;
 border-radius: 16px;
 background: rgba(255, 223, 0, 0.05);
 }
+/* shared-styles */
+.white-bg{background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
 .common-p{
     color: rgb(13, 19, 33);
     font-size: 16px;
@@ -253,6 +257,7 @@ font-size: 16px;
 font-weight: 700;
 text-align: start;
     }
+    /* last-section styles */
     .last-page{
         width: 1140px;
 height: 314px;
@@ -269,7 +274,7 @@ margin-bottom: 70px;
         justify-content: center;
         align-items: center;
     }
-    .textarea-btn{
+    .inputs{
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -277,7 +282,7 @@ margin-bottom: 70px;
         gap: 10px;
 
     }
-    textarea{
+    input{
         box-sizing: border-box;
 border: 1px solid rgba(13, 19, 33, 0.15);
 border-radius: 8px;
@@ -289,7 +294,7 @@ font-size: 16px;
 font-weight: 400;
 padding: 10px;
     }
-    .btn{
+    input[type="submit"]{
         width: 120px;
 height: 58px;
 border-radius: 8px;
@@ -297,6 +302,7 @@ background: rgb(255, 255, 255);
 color: rgb(13, 19, 33);
 font-size: 20px;
 font-weight: 600;
+cursor: pointer;
     }
     .last-page-div h3{
         color: rgb(255, 255, 255);
@@ -312,6 +318,7 @@ font-weight: 400;
 margin-bottom: 24px;
 opacity: 0.7;
     }
+    /* footer-section styles */
     footer{
         display: flex;
         flex-direction: row;
