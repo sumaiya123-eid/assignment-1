@@ -1,3 +1,4 @@
+/* font-styles */
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 body{
     font-family: "Azeret Mono", monospace;
@@ -39,7 +40,7 @@ div button{
     height: 130px;
 }
 .hero-banner{
-    width: 1440px;
+    width: 1500px;
     height: 600px;
     background-image: url("../assets/Hero-bg.png");
     margin: 0 auto;
@@ -54,13 +55,14 @@ div button{
     width: 240.28px;
     height: 240px;
     margin-top: 24px;
+    margin-bottom: 32px;
 }
 .hero h1{
     color: rgb(13, 19, 33);
     font-size: 48px;
     font-weight: 800;
     text-align: center;
-    margin-bottom: 24px;
+    margin-bottom: 30px;
 }
 .hero p{
     color: rgb(13, 19, 33);
@@ -68,7 +70,7 @@ div button{
     font-weight: 400;
     opacity: 0.7;
     text-align: center;
-    margin-bottom: 24px;
+    margin-bottom: 30px;
 }
 .hero-button{
     text-align: center;
@@ -325,7 +327,7 @@ opacity: 0.7;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        width: 1440px;
+        width: 1500px;
         height: 100px;
         margin: 0 auto;
         border-radius: 16px;
